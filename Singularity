@@ -27,3 +27,15 @@ Version v0.01
   # Install tensorflow and keras
   pip3 install --user --upgrade tensorflow-gpu
   pip3 install --user --upgrade keras
+
+  # Cuda support
+  apt-get install -y linux-headers-$(uname -r)
+  dpkg -i cuda.deb
+  apt-key add /var/cuda-repo-9-0-local/7fa2af80.pub
+  apt-get update
+  apt-get install -y cuda
+
+  # cudnn
+  dpkg -i libcudnn.deb
+  apt-get update
+  apt-get install -y libcupti-dev
