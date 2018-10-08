@@ -20,8 +20,13 @@ Version v0.01
 
 %post
   # Install python and dependencies
-  apt update
-  apt install -y python3-dev python3-pip
+  apt-get update
+  apt-get install -y \
+    python3-dev \
+    python3-pip \
+    locales \
+    language-pack-en
+
   pip3 install virtualenv
 
   # Install tensorflow and keras
