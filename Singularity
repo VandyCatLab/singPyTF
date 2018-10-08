@@ -22,11 +22,11 @@ Version v0.01
   # Install python and dependencies
   apt update
   apt install -y python3-dev python3-pip
-  pip3 install -U virtualenv
+  pip3 install virtualenv
 
   # Install tensorflow and keras
-  pip3 install --user --upgrade tensorflow-gpu
-  pip3 install --user --upgrade keras
+  pip3 install --upgrade tensorflow-gpu
+  pip3 install --upgrade keras
 
   # Cuda support
   apt-get install -y linux-headers-$(uname -r)
