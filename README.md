@@ -8,7 +8,7 @@ sudo singularity build pyKeras.simg Singularity
 
 To use/test:
 ```
-singuluarity exec pyKeras.simg python3 -i kerasTest.py
+singularity exec pyKeras.simg python3 -i kerasTest.py
 ```
 
 To get into environment
