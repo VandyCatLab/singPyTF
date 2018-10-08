@@ -17,3 +17,8 @@ Version v0.01
 %files
   libcudnn.deb
   cuda.deb
+
+%post
+apt update
+apt install -y python3-dev python3-pip
+pip3 install -U virtualenv
