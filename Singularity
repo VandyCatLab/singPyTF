@@ -24,6 +24,7 @@ Version v0.01
   apt-get install -y \
     python3-dev \
     python3-pip \
+    pip \
     locales \
     language-pack-en
 
