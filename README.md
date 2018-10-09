@@ -8,15 +8,15 @@ sudo singularity build pyKeras.simg Singularity
 
 To use/test:
 ```
-singularity exec pyKeras.simg python3 -i kerasTest.py
+singularity exec --nv pyKeras.simg python3 kerasTest.py
 ```
 
 To get into environment
 ```
-singularity shell pyKeras.simg
+singularity shell --nv pyKeras.simg
 ```
 
 To get just an interactive python
 ```
-singularity exec pyKeras.simg python3
+singularity exec --nv pyKeras.simg python3
 ```
