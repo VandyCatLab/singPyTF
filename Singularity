@@ -24,15 +24,14 @@ Version v0.01
   apt-get install -y \
     python3-dev \
     python3-pip \
-    pip \
     locales \
     language-pack-en
 
-  pip install virtualenv
+  pip install --user --upgrade virtualenv
 
   # Install tensorflow and keras
-  pip install --upgrade tensorflow-gpu
-  pip install --upgrade keras
+  pip install --user --upgrade tensorflow-gpu
+  pip install --user --upgrade keras
 
   # Cuda support
   apt-get install -y linux-headers-$(uname -r)
