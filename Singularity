@@ -44,3 +44,6 @@ Version v0.01
   dpkg -i libcudnn.deb
   apt-get update
   apt-get install -y libcupti-dev
+
+  # ACCRE binding points
+  mkdir /scratch /data /gpfs22 /gpfs23
