@@ -34,7 +34,7 @@ Version v0.01
   pip3 install -t /usr/lib/python3/dist-packages/ --upgrade keras
 
   # Install pillow
-  pip3 install -t /usr/lib/python3/dist_packages/ --upgrade pillow
+  pip3 install -t /usr/lib/python3/dist-packages/ --upgrade image
   
   # Cuda support
   apt-get install -y linux-headers-$(uname -r)
