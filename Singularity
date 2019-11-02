@@ -8,6 +8,6 @@ Version v0.02
 
 %post
   # Install Keras
-  pip3 install keras
+  pip install keras
   
   
