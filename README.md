@@ -1,5 +1,5 @@
 # singPyKeras
-Singularity container for Python and Keras
+Singularity container for Python and Keras. Check releases for built images.
 
 To build:
 ```
