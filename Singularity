@@ -9,9 +9,9 @@ Version v0.03
 
 %post
   # Jupyter and important libraries
-  pip install matplotlib scikit-learn pandas
+  pip install jupyter matplotlib scikit-learn pandas
   # Text editors and git
-  apt install neovim nano git
+  apt -y install neovim nano git
 
   
   
