@@ -12,8 +12,8 @@ Version v0.03
   apt install python3-notebook jupyter jupyter-core python-ipykernel  
   # Important Python libraries
   pip install matplotlib scikit-learn pandas
-  # Text editors
-  apt install neovim nano
+  # Text editors and git
+  apt install neovim nano git
 
   
   
