@@ -1,13 +1,17 @@
 Bootstrap: docker
-From: tensorflow/tensorflow:latest-gpu-py3-jupyter
+From: tensorflow/tensorflow:2.2.0-gpu
 IncludeCmd: yes
 
 %labels
 Author Jason Chow
-Version v0.02
+Author Sam Lee
+Version v0.03
 
 %post
-  # Install Keras
-  pip install keras
+  # Jupyter and important libraries
+  pip install jupyter matplotlib scikit-learn pandas
+  # Text editors and git
+  apt -y install neovim nano git
+
   
   
