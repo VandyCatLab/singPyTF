@@ -8,6 +8,8 @@ Author Sam Lee
 Version v0.03
 
 %post
+  apt-get update
+
   # Jupyter and important libraries
   pip install jupyter matplotlib scikit-learn pillow pandas
   # Text editors and git
