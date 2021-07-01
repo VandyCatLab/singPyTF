@@ -3,20 +3,20 @@ Singularity container for Python and Keras. Check releases for built images.
 
 To build:
 ```
-sudo singularity build pyKeras.sif Singularity
+sudo singularity build pyTF.sif Singularity
 ```
 
 To use/test:
 ```
-singularity exec --nv pyKeras.sif python kerasTest.py
+singularity exec --nv pyTF.sif python kerasTest.py
 ```
 
 To get into environment
 ```
-singularity shell --nv pyKeras.sif
+singularity shell --nv pyTF.sif
 ```
 
 To get just an interactive python
 ```
-singularity exec --nv pyKeras.sif python
+singularity exec --nv pyTF.sif python
 ```
