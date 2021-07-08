@@ -11,7 +11,7 @@ Version v0.04
   apt-get update
 
   # Jupyter and important libraries
-  pip install scipy tensorflow-addons pandas
+  pip install scipy tensorflow-addons pandas numba
   # Text editors and git
   apt -y install nano git
 
