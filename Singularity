@@ -29,7 +29,7 @@ Version v0.04
   pip install --upgrade pip
 
   # Install easy stuff and dependencies for python 
-  pip install tensorflow-addons tensorflow-datasets pandas numba Cython pythran
+  pip install tensorflow-addons tensorflow-datasets tensorflow-hub pandas numba Cython pythran
 
   # Build numpy and scipy from source for mkl support
   pip install numpy==1.19.2 scipy --no-binary numpy,scipy --force-reinstall
