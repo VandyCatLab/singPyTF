@@ -9,7 +9,7 @@ Version v2.00
 %post
   # Install python and dependencies
   pip3 install --upgrade pip
-  pip3 install tensorflow_hub pydub tensorflow_io
+  pip3 install tensorflow_hub pydub tensorflow_io pandas matplotlib
   
   apt-get update
   apt-get install -y ffmpeg
