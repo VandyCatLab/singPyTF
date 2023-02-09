@@ -16,7 +16,9 @@ Version v2.00
   pip install --upgrade pip
 
   # Install easy stuff and dependencies for python 
-  pip install tensorflow-addons tensorflow-datasets tensorflow-hub tensorflow_io pydub pandas numba
+  pip install tensorflow-addons tensorflow-datasets tensorflow-hub \
+    tensorflow_io pydub pandas numba scikit-learn matplotlib seaborn \
+    opencv-python torch torchvision timm transformers pretrainedmodels
 
 
   
