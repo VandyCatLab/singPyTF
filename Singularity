@@ -16,7 +16,7 @@ Version v2.00
   pip install --upgrade pip
 
   # Install easy stuff and dependencies for python 
-  pip install tensorflow-addons tensorflow-datasets tensorflow-hub tensorflow_io pydub pandas numba Cython pythran
+  pip install tensorflow-addons tensorflow-datasets tensorflow-hub tensorflow_io pydub pandas numba
 
 
   
