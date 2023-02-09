@@ -1,16 +1,29 @@
 '''Trains a simple convnet on the MNIST dataset.
-Gets to 99.25% test accuracy after 12 epochs
+Gets to 84.65% test accuracy after 12 epochs
 (there is still a lot of margin for parameter tuning).
-16 seconds per epoch on a GRID K520 GPU.
+3 seconds per epoch on an NVIDIA RTX 2080 Ti.
+Runs deterministically.
 '''
 
 from __future__ import print_function
-import keras
-from keras.datasets import mnist
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Flatten
-from keras.layers import Conv2D, MaxPooling2D
-from keras import backend as K
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras.datasets import mnist
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Flatten
+from tensorflow.keras.layers import Conv2D, MaxPooling2D
+from tensorflow.keras import backend as K
+import numpy as np
+import os
+import random
+
+# Set seed values
+seed_value= 0
+os.environ['PYTHONHASHSEED']=str(seed_value)
+os.environ['TF_DETERMINISTIC_OPS'] = '1'
+random.seed(seed_value)
+np.random.seed(seed_value)
+tf.random.set_seed(seed_value)
 
 batch_size = 128
 num_classes = 10
